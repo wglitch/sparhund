@@ -1,0 +1,54 @@
+signal_terms:
+  risk:
+    - brist
+    - risk
+    - varning
+    - allvarlig
+    - otillräcklig
+    - saknar förutsättningar
+  trend:
+    - ökar
+    - minskar
+    - kraftigt
+    - fördubblats
+    - historiskt
+    - rekord
+  accountability:
+    - tillsyn
+    - vite
+    - föreläggande
+    - avvikelse
+    - ej verkställt
+  capacity:
+    - försening
+    - kö
+    - väntetid
+    - kapacitet
+    - bemanning
+  uncertainty:
+    - kan inte
+    - har inte kunnat
+    - bedömer att
+    - riskerar att
+
+named_actors:
+  authorities:
+    - Socialstyrelsen
+    - Folkhälsomyndigheten
+    - Trafikverket
+    - Skolverket
+  regions:
+    - Region Stockholm
+    - Region Skåne
+    - Region Västra Götaland
+  municipalities:
+    - Stockholm
+    - Göteborg
+    - Malmö
+
+source_reliability:
+  government: 3
+  parliament: 3
+  inquiry: 2
+  research: 2
+  manual: 1
