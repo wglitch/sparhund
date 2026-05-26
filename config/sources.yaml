@@ -1,0 +1,36 @@
+sources:
+  - name: Regeringen Pressrum
+    category: government
+    base_url: https://www.regeringen.se
+    crawl_type: html_index
+    entry_urls:
+      - https://www.regeringen.se/pressmeddelanden/
+    selectors:
+      link_selector: "a"
+    enabled: true
+
+  - name: Riksdagen Dokument
+    category: parliament
+    base_url: https://www.riksdagen.se
+    crawl_type: rss
+    entry_urls:
+      - https://www.riksdagen.se/sv/dokument-och-lagar/?utskott=&doktyp=&sort=rel&utformat=rss
+    selectors: {}
+    enabled: true
+
+  - name: SOU Exempel
+    category: inquiry
+    base_url: https://sou.gov.se
+    crawl_type: manual_urls
+    entry_urls:
+      - https://sou.gov.se/
+    selectors: {}
+    enabled: false
+
+  - name: Manuell Inmatning
+    category: manual
+    base_url: ""
+    crawl_type: manual_urls
+    entry_urls: []
+    selectors: {}
+    enabled: true
